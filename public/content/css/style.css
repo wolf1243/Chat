@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Bitter', serif!important;
+    font-size: 22px;
+}
+.panel {
+    height: 100vh;
+    background-color: #C0C0C0;
+}
+.left {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+.content {
+    background-color: #D3D3D3;
+    padding-left: 5%!important;
+    height: 100vh;
+}
+.panel-link {
+    color: #A9A9A9;
+}
+.panel-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+i {
+    font-size: 30px;
+}
+.panel-items {
+    margin: 30% 0;
+}

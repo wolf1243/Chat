@@ -1,0 +1,28 @@
+{
+  "name": "public/package",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "wulf1243@list.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4":  {
+      "app\\model\\core\\Router\\" : "model/core",
+      "app\\model\\config\\Routes\\" : "model/config",
+      "app\\controller\\AccountController\\": "controller",
+      "app\\model\\core\\Controller\\" : "model/core",
+      "app\\model\\interfaces\\ViewInterface\\": "model/interfaces",
+      "app\\model\\core\\View\\": "model/core",
+      "app\\controller\\MainController\\": "controller",
+      "app\\controller\\ErrorController\\": "controller",
+      "app\\model\\core\\DB\\" : "model/core",
+      "app\\model\\config\\DBConfig\\" : "model/config",
+      "app\\model\\interfaces\\LogLevel\\" : "model/interfaces",
+      "app\\model\\interfaces\\LoggerInterface\\" : "model/interfaces",
+      "app\\model\\interfaces\\LoggerAwareInterface\\" : "model/interfaces"
+    }
+  }
+}
