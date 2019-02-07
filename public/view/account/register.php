@@ -4,6 +4,7 @@
  * User: wulf1243
  * Date: 28.01.2019
  * Time: 20:57
+ * Nice time
  */
 ?>
 <div class="content col-12">
